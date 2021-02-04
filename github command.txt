@@ -1,0 +1,19 @@
+download reposientry:
+
+git clone [repo url]
+
+
+file track:
+git add .
+is sy untrack file ko track kr sakty hain
+
+version store:
+git comment -m "message likhna hota h is mai jysy init a file"
+
+
+
+
+git push:
+yeh command h jo sara data cloud pr yani github pr rakh dyti h
+
+
