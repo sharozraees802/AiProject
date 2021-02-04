@@ -8,7 +8,7 @@ git add .
 is sy untrack file ko track kr sakty hain
 
 version store:
-git comment -m "message likhna hota h is mai jysy init a file"
+git commit -m "message likhna hota h is mai jysy init a file"
 
 
 
