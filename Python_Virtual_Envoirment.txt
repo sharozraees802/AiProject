@@ -1,0 +1,36 @@
+[virtual env ki libary]
+
+command: pip install virtualenv
+
+[open  any folder open cmd same folder create a command with env name ]
+
+command: virtualenv  [envoitment name]
+
+[acitvate the env folder this folder create by useing virtuaenv libary]
+
+command: .\[envoitment name]\Scripts\activate
+
+
+[if any error to activated the folder use admin power shell and write set-executionpolicy remotesigned say y ]
+
+command: set-executionpolicy remotesigned
+
+
+[ all virtual env libary use in a project this command create a package txt to easliy install in a project]
+
+command: pip freeze > requirments.txt
+
+[install package command use a requirment.txt]
+
+command: pip install -r requirments.txt
+
+
+[open  any folder open cmd same folder create a command with env name use a flag this flag  create a env folder with local install system python libary  ]
+
+virtualenv --system-site-packages [envoitment name]
+
+
+.\[envoitment name]\Scripts\activate
+
+
+deactivate
