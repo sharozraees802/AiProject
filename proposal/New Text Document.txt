@@ -1,0 +1,33 @@
+delete_all([],_, []).
+delete_all([X|T],Y,[X|Result]):-dif(X,Y),delete_all(T, Y, Result).
+delete_all([Y| Tail], Y, Result):- delete_all(Tail, Y, Result).
+
+?delete_all([a,b,a,c,a,d],prolog,Result).
+
+
+
+replace([_|T],_,X,[X|T]).
+replace([H|T],I,X,[H|R]):- I > -1, I1 is I - 1, replace(T, I1, X, R).
+replace(L,_,_,L).
+
+?replace([a, b, a, c, a, d],a,mike,Result).
+
+append([],List,List).
+append([Head|Tail],List2,[Head|Result]):-append(Tail,List2,Result).
+
+?append([],[one,two,three],[one,two,three])
+?append([],[one,two,three],Result)
+?append([c],[one,two,three],Result)
+append([a,b],[one,two,three],Result)
+
+sift([],[]).
+sift([X|T], [X|Result ]) :- X > 6,sift(T, Result).
+
+?sift([1,12,3,14,5,8],Result)
+?sift([12,14,8],Result)
+
+
+shift([],[]).
+shift([ThrowAway|Tail],Result):- ThrowAway==ThrowAway,shift(Tail, Result).
+
+?shift([8,9,10,11],Result)
