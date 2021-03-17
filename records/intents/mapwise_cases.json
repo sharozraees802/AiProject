@@ -1,0 +1,68 @@
+{
+  "id": "9ad12864-00bb-4734-8525-e4bae7c2926c",
+  "name": "mapwise_cases",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "MERS Coronavirus  Cases and Sequences",
+          "subtitle": "https://news.google.com/covid19/map?hl=en-PK&mid=%2Fm%2F075mb&gl=PK&ceid=PK%3Aen"
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Cases worldwide on Map",
+          "subtitle": "https://news.google.com/covid19/map?hl=en-PK&mid=%2Fm%2F075mb&gl=PK&ceid=PK%3Aen"
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Cases by Google",
+          "subtitle": "https://news.google.com/covid19/map?hl=en-PK&mid=%2Fm%2F075mb&gl=PK&ceid=PK%3Aen"
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Want see some More about CoronaVirus ? Kindly choose ☝️ option 👇👇",
+          "replies": [
+            "show me some videos",
+            "show me some images",
+            "Main Menu",
+            "Exit"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Here is cases  world wide on Google Map -- https://news.google.com/covid19/map?hl=en-PK&mid=%2Fm%2F075mb&gl=PK&ceid=PK%3Aen"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

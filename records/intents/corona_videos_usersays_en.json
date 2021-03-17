@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2b79310a-1e6c-4553-a845-2008088c26c5",
+    "data": [
+      {
+        "text": "Govt announcements",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "389b2fab-a7f2-4885-8b5a-2fadb40af4c7",
+    "data": [
+      {
+        "text": "video",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2c745bfb-5662-46c8-989b-ef1540430465",
+    "data": [
+      {
+        "text": "covid 19 videos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "785bfa54-5f62-489b-8040-798b87fee732",
+    "data": [
+      {
+        "text": "video of coronavirus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

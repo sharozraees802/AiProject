@@ -1,0 +1,52 @@
+{
+  "id": "13afcb7d-3ecb-47a8-975e-3c96a35fca77",
+  "name": "social_follow",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Live Tweets by Indian Authorities",
+          "subtitle": "https://twitter.com/i/events/1240662046280048646?lang\u003den"
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Do you know ? 👂🏻👂🏻",
+          "replies": [
+            "symptoms",
+            "Its precautions"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Tweets by Authorities - https://twitter.com/i/events/1240662046280048646?lang\u003den"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

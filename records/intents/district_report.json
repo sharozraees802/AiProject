@@ -1,0 +1,59 @@
+{
+  "id": "a057ab51-c8b2-417b-853c-cc254e8bc853",
+  "name": "district_report",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "pakistan province wise👉🏻👉🏻",
+          "subtitle": "https://covid.gov.pk/stats/pakistan"
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "pakistan province Detailed Report👇🏻👇🏻",
+          "subtitle": "https://covid.gov.pk"
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Do you want to ask some more? Kindly choose 👆  option 👇👇👇",
+          "replies": [
+            "Main Menu",
+            "Cases on Maps",
+            "Exit"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "pakistan province wise 👉🏻👉🏻👉🏻 - https://covid.gov.pk/stats/pakistan"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

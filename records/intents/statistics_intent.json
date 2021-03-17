@@ -1,0 +1,58 @@
+{
+  "id": "2effbf5c-b49b-401c-94f3-d218a91acd43",
+  "name": "statistics_intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "👉🏻 I can filter according to below options. Kindly choose one👇🏻👇🏻👇🏻",
+          "replies": [
+            "cases Country wise",
+            "cases Indian states",
+            "cases World wide",
+            "Report District wise"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "👉🏻 I can filter according to below options. Kindly choose one👇🏻👇🏻👇🏻",
+          "replies": [
+            "cases Country wise",
+            "cases Indian states",
+            "cases World wide",
+            "Report District wise",
+            "Mapwise cases"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "👉🏻 I can filter according to below options. Kindly choose one👇🏻👇🏻👇🏻 1.cases Country wise 2.cases Indian states 3.cases World wide 4.Report District wise"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

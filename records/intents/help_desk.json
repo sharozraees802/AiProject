@@ -1,0 +1,58 @@
+{
+  "id": "1d1d6a1b-9532-4cbc-88b6-33000eb5bf93",
+  "name": "help_desk",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "Official Helpseek -",
+          "subtitle": "https://covid.gov.pk/stats/pakistan"
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "You can email to contact@nhsrc.gov.pk| Here is pakistan Govt Official helpdesk",
+          "subtitle": "sms: 1166 phone numbers: +92 (51) 9255090-2, +92 (51) 9245717"
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Is there anything to which I can help ?",
+          "replies": [
+            "Main Menu",
+            "Exit"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Official helpdesk -https://covid.gov.pk/stats/pakistan"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

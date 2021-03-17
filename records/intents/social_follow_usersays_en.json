@@ -1,0 +1,38 @@
+[
+  {
+    "id": "97a600f6-aac5-45c4-89c4-65fcf9e2a50b",
+    "data": [
+      {
+        "text": "live news",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "239c1c3c-823d-4e95-8056-84f9211d3d65",
+    "data": [
+      {
+        "text": "social media",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "76372c6d-70e3-4375-86bf-8aefadb22da3",
+    "data": [
+      {
+        "text": "tweets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

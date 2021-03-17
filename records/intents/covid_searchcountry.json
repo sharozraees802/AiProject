@@ -1,0 +1,86 @@
+{
+  "id": "3bebb5fb-f849-42f5-8c34-f16eed898081",
+  "name": "covid_searchcountry",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f299b64e-995f-4708-9f9e-7d430bbd0d68",
+          "required": true,
+          "dataType": "@sys.geo-country",
+          "name": "geo-country",
+          "value": "$geo-country",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter a valid country Name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Here are the details for $geo-country .  Do you want me to send the report to your Email-Id as well ?"
+        },
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "Here are the details for $geo-country ."
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Do you want me to send the report to your Email-Id as well ?",
+          "replies": [
+            "Sure",
+            "Not now"
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "speech": "Here are the details for $geo-country ."
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "Do you want me to send the report to your Email-Id as well ?",
+          "replies": [
+            "Sure",
+            "Not now"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

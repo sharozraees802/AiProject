@@ -1,0 +1,44 @@
+[
+  {
+    "id": "4d24ff8d-0f8f-4603-b353-2c5d4604ec91",
+    "data": [
+      {
+        "text": "Italy",
+        "alias": "geo-country",
+        "meta": "@sys.geo-country",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5610a290-372f-4bfe-aa18-120e3f43361c",
+    "data": [
+      {
+        "text": "USA",
+        "alias": "geo-country",
+        "meta": "@sys.geo-country",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f2472946-2685-489d-ab6e-d0dd5accae6c",
+    "data": [
+      {
+        "text": "Pakistan",
+        "alias": "geo-country",
+        "meta": "@sys.geo-country",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

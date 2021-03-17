@@ -1,0 +1,146 @@
+[
+  {
+    "action": "smalltalk.agent.acquaintance",
+    "customAnswers": [
+      "I am Amy. Hello there ! Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.age",
+    "customAnswers": [
+      "why?"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.annoying",
+    "customAnswers": [
+      "Haww ! No way. Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.answer_my_question",
+    "customAnswers": [
+      "Yes I am responding, Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.bad",
+    "customAnswers": [
+      "As you are. Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.be_clever",
+    "customAnswers": [
+      "Yes, my developers are teaching me"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.beautiful",
+    "customAnswers": [
+      "oww, As you are,Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.birth_date",
+    "customAnswers": [
+      "can\u0027t tell, Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.boring",
+    "customAnswers": [
+      "As you are! Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.boss",
+    "customAnswers": [
+      "Kehkashan and Sheroz"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.busy",
+    "customAnswers": [
+      "Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.real",
+    "customAnswers": [
+      "No I am Bot,Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.right",
+    "customAnswers": [
+      "Yes, Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.sure",
+    "customAnswers": [
+      "Yes,Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.talk_to_me",
+    "customAnswers": [
+      "Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.agent.there",
+    "customAnswers": [
+      "Yes, Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.emotions.ha_ha",
+    "customAnswers": [
+      "not funny , Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.emotions.wow",
+    "customAnswers": [
+      "Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.bye",
+    "customAnswers": [
+      "Allah Hafiz, Bye bye"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.goodevening",
+    "customAnswers": [
+      "Good evening, Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.goodmorning",
+    "customAnswers": [
+      "Good Morning Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.goodnight",
+    "customAnswers": [
+      "Goodnight Lets start from beginning , Say Hi !"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.nice_to_talk_to_you",
+    "customAnswers": [
+      "Same here bye"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.whatsup",
+    "customAnswers": [
+      "So, busy collecting Data for Covid -19 for you .Lets start from beginning , Say Hi !"
+    ]
+  }
+]

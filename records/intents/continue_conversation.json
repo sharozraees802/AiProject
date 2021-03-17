@@ -1,0 +1,115 @@
+{
+  "id": "42266905-8af4-4a88-ad58-49270ce4c880",
+  "name": "continue_conversation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "You can ask me anything related to Covid-19.Or  you can choose below queries."
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "You can see Top FAQ below 👇👇",
+          "buttons": [
+            {
+              "text": "What is a COVID-19?"
+            },
+            {
+              "text": "Symptoms"
+            },
+            {
+              "text": "Precautions"
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Or you can select any option below 🙏🏽",
+          "replies": [
+            "live news",
+            "Show data",
+            "videos",
+            "photos"
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "speech": "You can ask me anything related to Covid-19 .Or  you can choose below queries."
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "1.  See Top FAQ below 👇👇",
+          "buttons": [
+            {
+              "text": "What is a COVID-19?"
+            },
+            {
+              "text": "What about public transport"
+            },
+            {
+              "text": "How is this coronavirus spread?"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "2. See Top FAQ below 👇👇",
+          "buttons": [
+            {
+              "text": "What is the government doing to contain the spread of COVID-19?"
+            },
+            {
+              "text": "Can I get the infection from eating say meat or by using products from China?"
+            },
+            {
+              "text": "Is there a vaccine against it or a medicine I can take if I get infected?"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Please tell me your query?",
+            "Please state your query?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

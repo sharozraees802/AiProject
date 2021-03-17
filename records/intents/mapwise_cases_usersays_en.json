@@ -1,0 +1,38 @@
+[
+  {
+    "id": "d16076d3-9cf6-4dc2-88cc-b79411a9c3f6",
+    "data": [
+      {
+        "text": "Mapwise cases",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e1bb4752-eac7-41dc-996d-9834d9f4446a",
+    "data": [
+      {
+        "text": "show Covid-19 on Map",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "617d4fd1-ab50-4b5d-88b7-30667f4290ac",
+    "data": [
+      {
+        "text": "cases on map",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

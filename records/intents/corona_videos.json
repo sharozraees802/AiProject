@@ -1,0 +1,84 @@
+{
+  "id": "50e36dc7-0a76-4925-9602-438aa4372155",
+  "name": "corona_videos",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Govt of pakistan advertisment on Covid-19",
+          "subtitle": "https://www.youtube.com/watch?v=ZZmLXaCy0Xs"
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Govt of pakistan advertisment on Covid-19",
+          "subtitle": "https://www.youtube.com/watch?v=ZZmLXaCy0Xs"
+        },
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "CoronaVirus in Detail",
+          "subtitle": "https://www.youtube.com/watch?v=w5HvxsOo00E"
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Kindly choose 👆 options 👇👇👇",
+          "replies": [
+            "Main Menu",
+            "Mapwise cases"
+          ]
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "template",
+                "payload": {
+                  "elements": [
+                    {
+                      "url": "https://fb.watch/4i1rSzNpfa/",
+                      "media_type": "video"
+                    }
+                  ],
+                  "template_type": "media"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

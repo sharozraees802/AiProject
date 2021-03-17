@@ -1,0 +1,73 @@
+{
+  "id": "b4fb692d-4afa-4d83-aec8-10522d16c71e",
+  "name": "select_country_option",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "Please enter any country name or you choose from Top countries below."
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Kindly choose one option 👇",
+          "replies": [
+            "India",
+            "USA",
+            "Itlay",
+            "China",
+            "Malaysia"
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "speech": "Please enter any country name or you choose from Top countries below."
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "Kindly choose one option 👇",
+          "replies": [
+            "India",
+            "Itlay",
+            "China",
+            "USA",
+            "Malaysia"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Please Enter Country Name ?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

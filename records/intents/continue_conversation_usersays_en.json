@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cb595093-38fd-4de8-8999-617bfd89bc19",
+    "data": [
+      {
+        "text": "FAQ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bc43fcde-a44d-4c7e-b9a7-5b707ef076a8",
+    "data": [
+      {
+        "text": "yeah",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "59cac8ef-376f-4cec-af56-7fb78ec3e59c",
+    "data": [
+      {
+        "text": "ofcourse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a09d4836-4c5b-4452-9c4d-66f8aa9b7cf1",
+    "data": [
+      {
+        "text": "Sure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

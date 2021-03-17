@@ -1,0 +1,140 @@
+{
+  "id": "bdc86ec1-88b6-40d4-a113-efc116269ecb",
+  "name": "send_report_to_email",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fdd74e4a-6384-4c12-9546-95e8d9b4840d",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "cust_name",
+          "value": "$cust_name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "9f5d5276-07f8-4bb7-9427-a9feceff1820",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "cust_email",
+          "value": "$cust_email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please enter your email address"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "5624bbbf-1323-41b7-9a67-0c58146a9151",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "cust_contact",
+          "value": "$cust_contact",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your mobile number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "1c637958-d281-497c-be7a-3b0c6f0ab02a",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "cust_pincode",
+          "value": "$cust_pincode",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your pincode"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "speech": "We have sent the detailed report of Covid-19 cases to your given e-mail address. Do you have any other Query?"
+        },
+        {
+          "type": 2,
+          "platform": "telegram",
+          "lang": "en",
+          "condition": "",
+          "title": "Kindly choose one option 👇",
+          "replies": [
+            "Main Menu",
+            "Exit"
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "speech": "We have sent the detailed report of Covid-19 cases to your given e-mail address. Do you have any other Query?"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "condition": "",
+          "title": "Kindly choose one option 👇",
+          "replies": [
+            "Main Menu",
+            "Exit"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "We have sent the detailed report of Covid-19 cases to your given e-mail address. Do you have any other Query? Type 1. Main Menu 2. Exit"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
