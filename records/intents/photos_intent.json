@@ -24,10 +24,7 @@
           "lang": "en",
           "condition": "",
           "title": "Kindly choose below options 👇🏻 👇🏻",
-          "replies": [
-            "Main Menu",
-            "Govt announcements"
-          ]
+          "replies": ["Main Menu", "Govt announcements"]
         },
         {
           "type": 1,
@@ -44,7 +41,7 @@
           "lang": "en",
           "condition": "",
           "title": "Covid-19 Detail",
-          "subtitle": "https://www.youtube.com/watch?v\u003dPWzbArPgo-o"
+          "subtitle": "https://www.youtube.com/watch?v=w5HvxsOo00E"
         },
         {
           "type": 0,

@@ -22,13 +22,7 @@
           "lang": "en",
           "condition": "",
           "title": "Kindly choose one option 👇",
-          "replies": [
-            "India",
-            "USA",
-            "Itlay",
-            "China",
-            "Malaysia"
-          ]
+          "replies": ["Pakistan", "USA", "Itlay", "China", "Malaysia"]
         },
         {
           "type": 0,
@@ -43,13 +37,7 @@
           "lang": "en",
           "condition": "",
           "title": "Kindly choose one option 👇",
-          "replies": [
-            "India",
-            "Itlay",
-            "China",
-            "USA",
-            "Malaysia"
-          ]
+          "replies": ["Pakistan", "Itlay", "China", "USA", "Malaysia"]
         },
         {
           "type": 0,

@@ -14,8 +14,8 @@
           "platform": "telegram",
           "lang": "en",
           "condition": "",
-          "title": "Live Tweets by Indian Authorities",
-          "subtitle": "https://twitter.com/i/events/1240662046280048646?lang\u003den"
+          "title": "Live Tweets by Pakistan Authorities",
+          "subtitle": "https://twitter.com/nhsrcofficial?lang=en"
         },
         {
           "type": 2,
@@ -23,16 +23,13 @@
           "lang": "en",
           "condition": "",
           "title": "Do you know ? 👂🏻👂🏻",
-          "replies": [
-            "symptoms",
-            "Its precautions"
-          ]
+          "replies": ["symptoms", "Its precautions"]
         },
         {
           "type": 0,
           "lang": "en",
           "condition": "",
-          "speech": "Tweets by Authorities - https://twitter.com/i/events/1240662046280048646?lang\u003den"
+          "speech": "Tweets by Authorities - https://twitter.com/nhsrcofficial?lang=en"
         }
       ],
       "defaultResponsePlatforms": {

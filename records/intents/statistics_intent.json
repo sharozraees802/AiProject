@@ -17,9 +17,9 @@
           "title": "👉🏻 I can filter according to below options. Kindly choose one👇🏻👇🏻👇🏻",
           "replies": [
             "cases Country wise",
-            "cases Indian states",
+            "cases Pakistan states",
             "cases World wide",
-            "Report District wise"
+            "Report province wise"
           ]
         },
         {
@@ -30,9 +30,9 @@
           "title": "👉🏻 I can filter according to below options. Kindly choose one👇🏻👇🏻👇🏻",
           "replies": [
             "cases Country wise",
-            "cases Indian states",
+            "cases Pakistan states",
             "cases World wide",
-            "Report District wise",
+            "Report province wise",
             "Mapwise cases"
           ]
         },
@@ -40,7 +40,7 @@
           "type": 0,
           "lang": "en",
           "condition": "",
-          "speech": "👉🏻 I can filter according to below options. Kindly choose one👇🏻👇🏻👇🏻 1.cases Country wise 2.cases Indian states 3.cases World wide 4.Report District wise"
+          "speech": "👉🏻 I can filter according to below options. Kindly choose one👇🏻👇🏻👇🏻 1.cases Country wise 2.cases Pakistan states 3.cases World wide 4.Report District wise"
         }
       ],
       "defaultResponsePlatforms": {},
