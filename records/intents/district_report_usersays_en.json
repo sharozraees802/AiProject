@@ -3,7 +3,7 @@
     "id": "da39c91c-a94d-4709-8f4d-a7223912d359",
     "data": [
       {
-        "text": "Report District wise",
+        "text": "Report Province wise",
         "userDefined": false
       }
     ],
@@ -20,7 +20,7 @@
         "userDefined": true
       },
       {
-        "text": " district wise report",
+        "text": " Province wise report",
         "userDefined": false
       }
     ],
