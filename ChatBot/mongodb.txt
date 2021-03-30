@@ -1,0 +1,1 @@
+mongodb+srv://admin123:<password>@cluster0.kcwov.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
