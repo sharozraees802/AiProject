@@ -226,7 +226,7 @@ def processRequest(req):
 
 
 def configureDataBase():
-    client = MongoClient("mongodb+srv://username:passwrod@cluster0-replace with you URL.mongodb.net/test?retryWrites=true&w=majority")
+    client = MongoClient("mongodb+srv://admin123:admin123@cluster0.kcwov.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
     return client.get_database('covid19DB')
 
 
