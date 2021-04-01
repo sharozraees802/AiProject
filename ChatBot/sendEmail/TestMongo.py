@@ -4,9 +4,9 @@ db = client.get_database('covid19DB')
 records = db.chat_records
 print(records.count_documents({}))
 new_chat = {
-    'name': 'ram',
-    'roll_no': 321,
-    'branch': 'it'
+    'name': 'kehkashan_Sheroz',
+    'roll_no': 98259852,
+    'branch': 'AI'
 }
 
 
