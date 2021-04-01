@@ -9,7 +9,7 @@ class Api:
         querystring = {"country": country_name}
         headers = {
             'x-rapidapi-host': "covid-193.p.rapidapi.com",
-            'x-rapidapi-key': "482a8f8516msh16204eb9d1f4f68p1a9146jsnf33914c7300e"
+            'x-rapidapi-key': "bfacd8b9b6msh67ec4b14fc2440ap1a2d33jsn27e3139fae9e"
         }
         response = requests.request("GET", url, headers=headers, params=querystring)
         # print(response.text)
@@ -22,10 +22,10 @@ class Api:
 
 
     def makeApiRequestForIndianStates(self):
-        url = "https://covid19-data.p.rapidapi.com/india"
+        url = "https://covid19-data.p.rapidapi.com/pakistan"
         headers = {
             'x-rapidapi-host': "covid19-data.p.rapidapi.com",
-            'x-rapidapi-key': "482a8f8516msh16204eb9d1f4f68p1a9146jsnf33914c7300e"
+            'x-rapidapi-key': "bfacd8b9b6msh67ec4b14fc2440ap1a2d33jsn27e3139fae9e"
         }
         response = requests.request("GET", url, headers=headers)
         # print(response.text)
@@ -39,7 +39,7 @@ class Api:
         url = "https://covid-19-statistics.p.rapidapi.com/reports/total"
         headers = {
             "x-rapidapi-host": "covid-19-statistics.p.rapidapi.com",
-            "x-rapidapi-key": "482a8f8516msh16204eb9d1f4f68p1a9146jsnf33914c7300e"
+            "x-rapidapi-key": "bfacd8b9b6msh67ec4b14fc2440ap1a2d33jsn27e3139fae9e"
         }
         response = requests.request("GET", url, headers=headers)
         # print(response.text)
