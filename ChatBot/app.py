@@ -178,7 +178,7 @@ def processRequest(req):
 
 
 
-        log.saveConversations(sessionID, "Indian State Cases", webhookresponse1, intent, db)
+        log.saveConversations(sessionID, "Pakistan State Cases", webhookresponse1, intent, db)
         return {
 
             "fulfillmentMessages": [
@@ -236,7 +236,7 @@ def makeAPIRequest(query):
     if query == "world":
         return api.makeApiWorldwide()
     if query == "state":
-        return api.makeApiRequestForIndianStates()
+        return api.makeApiRequestForPakistanStates()
 
     else:
         return api.makeApiRequestForCounrty(query)

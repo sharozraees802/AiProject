@@ -14,7 +14,7 @@ class GMailClient:
         EMAIL_ADDRESS = 'webmobile802@gmail.com'
         EMAIL_PASSWORD = '$Webmobile802'
 
-        #contacts = ['dineshraturi22@gmail.com']
+        contacts = ['sharozkhan802@gmail.com']
 
         msg = EmailMessage()
         msg['Subject'] = 'Detailed Covid-19 Report!'
@@ -29,7 +29,7 @@ class GMailClient:
         template = template_reader.TemplateReader()
         email_message = template.read_course_template("simple")
         #print(email_message)
-        country_name1 = "India"
+        country_name1 = "Pakistan"
         total1 = str(values.get("total"))
         new1 = str(values.get("new"))
         active1 = str(values.get("active"))
