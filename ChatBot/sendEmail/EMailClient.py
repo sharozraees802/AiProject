@@ -11,10 +11,10 @@ class GMailClient:
     def sendEmail(self,contacts):
         #EMAIL_ADDRESS = os.environ.get('EMAIL_USER')
         #EMAIL_PASSWORD = os.environ.get('EMAIL_PASS')
-        EMAIL_ADDRESS = 'webmobile802@gmail.com'
-        EMAIL_PASSWORD = '$Webmobile802'
+        EMAIL_ADDRESS = 'webmobile@gmail.com'
+        EMAIL_PASSWORD = '$Webmobil'
 
-        contacts = ['sharozkhan802@gmail.com']
+        contacts = ['Provided person email']
 
         msg = EmailMessage()
         msg['Subject'] = 'Detailed Covid-19 Report!'
